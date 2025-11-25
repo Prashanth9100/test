@@ -9,6 +9,12 @@ export type Addresses = {
   [key: string]: Address;
 };
 
-export type Args = {
-  username: string;
+export type Args = { 
+  username: string; 
 };
+
+export type AddArgs = { 
+  username: string; 
+  input: Address; 
+};
+
